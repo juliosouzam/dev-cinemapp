@@ -45,7 +45,11 @@ const Favorites: React.FC = () => {
             <p>{favorite.Year}</p>
           </div>
 
-          <button type="button" onClick={() => handleToogleFavorite(favorite)}>
+          <button
+            type="button"
+            onClick={() => handleToogleFavorite(favorite)}
+            data-testid={`favorite-${favorite.imdbID}`}
+          >
             <FiStar size={24} />
           </button>
         </Movie>

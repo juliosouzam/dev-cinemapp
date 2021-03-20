@@ -12,7 +12,7 @@ const Header: React.FC = () => {
         <img src={logo} alt="Github Explorer" />
       </Link>
 
-      <Link to="/favorites">
+      <Link to="/favorites" data-testid="goto-favorites">
         <FiStar size={16} />
         Favoritos
       </Link>

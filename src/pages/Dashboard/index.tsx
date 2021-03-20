@@ -103,7 +103,11 @@ const Dashboard: React.FC = () => {
               <p>{mov.Year}</p>
             </div>
 
-            <button type="button" onClick={() => handleToogleFavorite(mov)}>
+            <button
+              type="button"
+              onClick={() => handleToogleFavorite(mov)}
+              data-testid={`favorite-${mov.imdbID}`}
+            >
               <FiStar size={24} />
             </button>
           </Movie>
