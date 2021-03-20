@@ -20,6 +20,8 @@ $ yarn start
 
 ```sh
 $ yarn test
+
+# por motivos de saúde, não consegui terminar alguns testes que pensei em fazer.
 ```
 
 Developed by [me](https://github.com/juliosouzam) with :heart: but without :coffee:
