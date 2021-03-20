@@ -9,7 +9,7 @@ const Header: React.FC = () => {
   return (
     <Wrapper>
       <Link to="/">
-        <img src={logo} alt="Github Explorer" />
+        <img src={logo} alt="Cinema App" />
       </Link>
 
       <Link to="/favorites" data-testid="goto-favorites">

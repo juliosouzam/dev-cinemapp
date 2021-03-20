@@ -13,7 +13,7 @@ describe('Header component', () => {
   it('should be able to go to favorites page', async () => {
     const { getByAltText } = render(<Header />);
 
-    const logoElement = getByAltText('Github Explorer');
+    const logoElement = getByAltText('Cinema App');
 
     expect(logoElement).toBeTruthy();
   });
